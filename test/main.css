@@ -1,0 +1,90 @@
+/body decoration/
+body{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-right: 20%;
+
+}
+.wrapper{
+    position: relative;
+    margin: auto;
+    background-color:#D4E9E7;
+}
+ nav ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 4px;
+    width:30% ;
+
+}
+/styling anchor tags/
+a{
+    position: relative;
+    border-right: 2px solid black;
+    display: inline-block;
+  width: 100px;
+  height: 40px;
+  padding: 20px;
+  ;
+} 
+/styling anchor tag/
+nav ul a{
+
+ color: black;
+display: block;
+font-size: 1.5rem;
+font-weight: bold;
+text-decoration: none;
+position: relative;
+top:450px;
+bottom: 10px;
+width: 50%;
+margin-left: 100px;
+}
+/main heading styling/h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 100px;
+    color:white;
+    font-size: 4rem;
+    padding: 100px;
+}
+img{
+    width: 100%;
+    float: left;
+}
+h2{
+    left: auto;
+    right: auto;
+    padding-top: 500px;
+
+}
+.main img{
+    width:160px;
+    padding-left: 17px;
+    padding-right: 13px;
+    padding-top: 3px;
+}/form styling/
+.form{
+    border:2px black;
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-right: 100px;
+    padding-bottom: 2px;
+    box-shadow: 1px 1px 1px black;
+   
+}
+/giving required size to boxex/
+#fullname,#youremail{
+    width: 1000px;
+}
+#message{
+    width: 1000px;
+    height: 65px;
+}
+/fixing footer in apropriate position/
+#foot{
+    margin-left: 88%;
+}
